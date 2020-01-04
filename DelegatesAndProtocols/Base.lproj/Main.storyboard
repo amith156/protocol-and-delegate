@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mgz-Zl-jO9">
-                                <rect key="frame" x="140" y="282" width="135" height="60"/>
+                                <rect key="frame" x="75" y="282" width="264" height="60"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="Training"/>
                                 <connections>
@@ -37,7 +37,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lW5-LT-or6">
-                                <rect key="frame" x="142" y="554" width="131" height="60"/>
+                                <rect key="frame" x="75" y="554" width="264" height="60"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="War">
                                     <color key="titleColor" red="1" green="0.24961385922726453" blue="0.25169838233190223" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -67,15 +67,15 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mgz-Zl-jO9" secondAttribute="trailing" constant="139" id="6dr-qB-Wiz"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lW5-LT-or6" secondAttribute="trailing" constant="141" id="7B3-sq-qoS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mgz-Zl-jO9" secondAttribute="trailing" constant="75" id="6dr-qB-Wiz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lW5-LT-or6" secondAttribute="trailing" constant="75" id="7B3-sq-qoS"/>
                             <constraint firstItem="mgz-Zl-jO9" firstAttribute="top" secondItem="WP7-XL-MHG" secondAttribute="bottom" constant="73" id="9az-aQ-CFb"/>
                             <constraint firstItem="1HV-Pc-WVC" firstAttribute="top" secondItem="mgz-Zl-jO9" secondAttribute="bottom" constant="76" id="PRL-xU-gQr"/>
                             <constraint firstItem="lW5-LT-or6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PTU-HT-orr"/>
                             <constraint firstItem="PTb-2S-ie1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VXh-cC-fpR"/>
                             <constraint firstItem="lW5-LT-or6" firstAttribute="top" secondItem="1HV-Pc-WVC" secondAttribute="bottom" constant="76" id="Vsu-5x-deQ"/>
-                            <constraint firstItem="lW5-LT-or6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="142" id="WIa-1S-qxd"/>
-                            <constraint firstItem="mgz-Zl-jO9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="140" id="ZHE-3S-szK"/>
+                            <constraint firstItem="lW5-LT-or6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="WIa-1S-qxd"/>
+                            <constraint firstItem="mgz-Zl-jO9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="ZHE-3S-szK"/>
                             <constraint firstItem="1HV-Pc-WVC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="dhl-wJ-iiB"/>
                             <constraint firstItem="PTb-2S-ie1" firstAttribute="top" secondItem="lW5-LT-or6" secondAttribute="bottom" constant="70" id="qMS-p1-481"/>
                             <constraint firstItem="WP7-XL-MHG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qvI-nd-82F"/>
